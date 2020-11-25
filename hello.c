@@ -25,7 +25,7 @@ int main () {
   
     multiply(5,2);
 
-    add();
+    add(10,2);
   
     return 0;
 }
