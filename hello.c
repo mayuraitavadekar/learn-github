@@ -9,7 +9,7 @@ void add(int a, int b) {
 int main () {
     printf("hello world.");
 
-    add();
+    add(10,20);
 
     return 0;
 }
