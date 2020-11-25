@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+void subtract (int a, int b) {
+    int c;
+    c = a-b;
+    printf("subtraction is = %d", c);
+}
 
 void multiply(int a, int b) {
     int c;
@@ -14,7 +19,9 @@ void add(int a, int b) {
 }
 
 int main () {
-    printf("hello world.");
+    printf("hello world. please do not add this line.");
+
+    subtract(20,30);
   
     multiply(5,2);
 
